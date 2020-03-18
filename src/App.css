@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  
+}
+input, button {
+  height: 5vh;
+  padding: 5px;
+  width: 50%;
+  text-align: left;
+}
+
+button {
+  margin-top: 10px;
+  width: 8%;
+}
+  button:hover {
+    background-color: rgb(108, 231, 225);
+    color: white;
+  }
+
+label {
+  text-align: left;
+  width: 670px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
